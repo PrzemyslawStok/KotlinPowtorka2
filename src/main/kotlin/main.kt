@@ -4,7 +4,7 @@ fun main() {
 
     val carFactory = CarFactory.getInstance()
     val car0 = carFactory.createCar("bmw")
-    car0?.maxSpeed = 260
+    car0?.maxSpeed = 265
 
     val cars = mutableListOf<Car?>()
 
