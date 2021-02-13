@@ -4,7 +4,7 @@ interface carPrototype{
 }
 
 class Car(val name: String) : carPrototype{
-    override fun clone(): carPrototype {
+    override fun clone(): Car {
         TODO("Not yet implemented")
     }
 

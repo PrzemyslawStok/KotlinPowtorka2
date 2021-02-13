@@ -1,5 +1,5 @@
 fun main() {
-    val carFactory = CarFactory()
+    val carFactory = CarFactory.getInstance()
     val car0 = carFactory.createCar("bmw")
 
     car0?.let {
