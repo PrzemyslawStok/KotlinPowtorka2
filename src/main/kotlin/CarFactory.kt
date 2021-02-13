@@ -6,8 +6,8 @@ class CarFactory private constructor() {
     }
 
     init{
-        cars["bmw"] = Car("BMW")
-        cars["audi"] = Car("Audi")
+        cars["bmw"] = Car("BMW",250)
+        cars["audi"] = Car("Audi",250)
     }
 
     companion object{
