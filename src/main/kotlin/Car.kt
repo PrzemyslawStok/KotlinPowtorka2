@@ -9,6 +9,6 @@ class Car(val name: String) : carPrototype{
     }
 
     override fun info(): String {
-        TODO("Not yet implemented")
+        return "Car: $name"
     }
 }
